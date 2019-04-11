@@ -23,10 +23,12 @@
 
     <!-- Prevent session bleed caused by single threaded embedded browser and sessionStorage API -->
     <!-- https://github.com/cerner/fhir-client-cerner-additions -->
+    <!--cernertest 'client_id': 'aa370aeb-0299-4e43-8449-6c623bf0f0df', -->
+	  <!--epictest 'client_id': '790513fe-f285-49e3-b543-4968e2e32eb1', -->
     <script src='./lib/js/fhir-client-cerner-additions-1.0.0.js'></script>
     <script>
       FHIR.oauth2.authorize({
-        'client_id': 'aa370aeb-0299-4e43-8449-6c623bf0f0df',
+        'client_id': '790513fe-f285-49e3-b543-4968e2e32eb1',
         'scope':  'patient/Patient.read patient/Observation.read launch online_access openid profile'
       });
     </script>
