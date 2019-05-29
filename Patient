@@ -1,0 +1,45 @@
+{
+   "resourceType":"Patient",
+   "text":{
+       "status":"generated",
+       "div":"<div><div class=\"hapiHeaderText\"> Achim-Uwe <b>BERGMANNSBERG </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>Pat-473</td></tr><tr><td>Address</td><td><span>Luebeck </span></td></tr><tr><td>Date of birth</td><td><span>04 June 1802</span></td></tr></tbody></table></div>"
+   },
+   "identifier":[
+       {
+           "system":"http://kh-hh.de/mio/patients",
+           "value":"Pat-473"
+       }
+   ],
+   "name":[
+       {
+           "use":"official",
+           "family":[
+               "Bergmannsberg"
+           ],
+           "given":[
+               "Achim-Uwe"
+           ]
+       },
+       {
+           "use":"maiden",
+           "given":[
+               "Achim-Uwe"
+           ]
+       }
+   ],
+   "birthDate":"1802-06-04",
+   "address":[
+       {
+           "use":"home",
+           "city":"Luebeck"
+       }
+   ],
+   "maritalStatus":{
+       "coding":[
+           {
+               "system":"http://hl7.org/fhir/v3/MaritalStatus",
+               "code":"M"
+           }
+       ]
+   }
+}
